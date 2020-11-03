@@ -1,0 +1,99 @@
+body{
+
+	background-color: #d4d3d3;
+}
+
+#main{
+background-color: #ffffff;
+margin-left: 2%;
+margin-right:2%;
+padding-left: 30px;
+padding-right: 10px;
+min-height: 800px;
+}
+
+.info{
+	;
+	width:40%;
+    border-width: 5px;
+    border-color: green;
+    border-top-style: dashed;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    font-size: 16pt;
+    font-style:italic;
+    text-align: center;
+    word-spacing: 2px
+}
+
+.info:{
+
+font-size: 20pt;
+
+}
+
+
+
+#t1 .r1{
+background-color: red;
+
+}
+ 
+ table{
+
+ 	border-collapse: collapse;
+ 	text-align: center;
+ }
+
+ table, td , th{
+border:1px solid green;
+
+ }
+
+ span{
+
+ 	display: inline; 
+ }
+
+ ul{
+ 	list-style-type:none;
+ 	margin: 0px;
+ 	padding: 0px;
+    background-color:#f1f1f1;
+ }
+
+
+ul li {
+	width: 80px;
+	float: left;
+	background-color:#f1f1f1;
+}
+
+li a {
+	display: block;
+	color: #000;
+	padding: 8px 0px 8px 16px;
+	text-decoration: none;
+
+}
+
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+.drop-item{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	width: 150px
+
+}
+
+.dropdownlist:hover .drop-item{
+	display: block;
+}
+
+
+
